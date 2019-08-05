@@ -10,3 +10,9 @@ const User = mongoose.model("User", {
   email: String,
   age: Number
 });
+
+const user1 = new User({
+  name: "Bru",
+  username: "bruhu",
+  email: "annabru.abh@gmail.com"
+});
