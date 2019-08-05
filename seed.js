@@ -22,3 +22,6 @@ const user2 = new User({
   username: "getify",
   email: "kyle@gmail.com"
 });
+
+user1.save().then(() => console.log("meow"));
+user2.save().then(() => console.log("bark"));
