@@ -16,3 +16,9 @@ const user1 = new User({
   username: "bruhu",
   email: "annabru.abh@gmail.com"
 });
+
+const user2 = new User({
+  name: "Kyle Simpson",
+  username: "getify",
+  email: "kyle@gmail.com"
+});
